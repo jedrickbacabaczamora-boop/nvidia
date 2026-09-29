@@ -1,0 +1,32 @@
+.loader_boss {
+    background-color: #000000b8;
+    color: #fff;
+    width: 110px;
+    text-align: center;
+    height: 78px;
+    border-radius: 10px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding-top: 17px;
+}
+
+.spinner {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    overflow: visible; }
+.spinner > circle {
+    fill: none;
+    stroke: currentColor;
+    cx: 50%;
+    cy: 50%;
+    r: 50%;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    transform-origin: center;
+}

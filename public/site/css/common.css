@@ -1,0 +1,1627 @@
+body {
+    background: linear-gradient( 181deg, #17469F 0%, #032363 100%);
+}
+.common_body{
+    background: #17469F;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block
+}
+.header{
+    background: linear-gradient( 133deg, #004B6E 0%, #0397C9 99%);
+    border-radius: 0px 0px 0px 0px;
+    height: 30px;
+    line-height: 30px;
+    padding: 15px;
+}
+.mail_main{
+    margin:30px 15px ;
+}
+.mail_main .mail_card{
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3F70CD;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.mail_main .mail_card p{
+
+    font-family: Arial, Arial;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.mail_main .mail_card .mail_title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FDFEFF;
+    margin-bottom: 10px;
+}
+.mail_main .mail_card .mail_date{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ADC4F1;
+    margin-bottom: 10px;
+}
+.mail_main .mail_card .mail_contents{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D6E4FF;
+}
+.help_header{
+    background-image: url("/public/site/img/user/help_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    height: 200px;
+}
+.help_header .title{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 200px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 28px;
+    color: #35506F;
+    line-height: 22px;
+}
+.help_header .describe{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 200px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+    line-height: 22px;
+}
+.help_card{
+    margin: 20px;
+    padding: 15px 20px;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3F70CD;
+}
+.help_card .help_flex{
+    display: flex;
+    justify-content: left;
+}
+.help_card .help_flex .logo{
+    padding-right: 10px;
+}
+.help_card .help_flex .logo img{
+    width: 60px;height: 60px;
+}
+.help_card .help_flex .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #D6E4FF;
+    line-height: 22px;
+}
+.help_card .help_flex .describe{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D6E4FF;
+    line-height: 22px;
+}
+.vip_main{ margin: 15px;}
+
+.vip_main .vip_card {
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3F70CD;
+    margin-bottom: 15px;
+}
+
+.vip_main .vip_card .vip_icon {
+    width: 60px;
+    height: 28px;
+    background: linear-gradient( 270deg, #FDD256 0%, #FFF281 41%, #FCC545 100%);
+    border-radius: 16px 0px 16px 0px;
+    text-align: center;
+    line-height: 28px;
+}
+.vip_main .vip_card .vip_icon img {
+    height: 16px;
+    width: 16px;
+}
+
+.vip_main .vip_card .vip_contents {
+    padding: 15px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D6E4FF;
+    line-height: 28px;
+}
+
+.layui-layer-page {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, .3);
+}
+.layui-layer-page .content{
+    padding: 20px;
+}
+.layui-layer-page  .content .title{
+
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2A415C;
+    line-height: 23px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 10px;
+
+}
+.layui-layer-page .content .flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+}
+.layui-layer-page .content .flex .logo{
+   height: 100px;
+    width: 100px;
+
+}
+.layui-layer-page .content .flex .logo img{
+    padding: 10px;
+    width: 80px;
+    height: auto;
+}
+.layui-layer-page .content .flex .app_name{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2A415C;
+    line-height: 23px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 8px;
+}
+.layui-layer-page .content .flex .app_description{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #818393;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.common_header{
+    position: relative;
+    width: 100%;
+    border: none;
+}
+.common_header_order{
+    height: 20px;
+    background-image:url(/public/site/img/common/down_bg.png) ;
+    background-size: 100% 20px;
+    background-repeat: no-repeat;
+    border-top:1px solid #2857AF;
+}
+.common_header .back{
+    display: block;
+    width: 100%;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #D6E4FF;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 36px;
+
+}
+.common_header .back .btn{
+    width: 36px;
+    height: 36px;
+    background: #2250A8;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3060B9;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    top:15px;
+    left: 15px;
+}
+.common_header .back .service{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #2250A8;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3060B9;
+}
+.common_header .back .service img{
+     width: 19px;
+     height: 19px;
+}
+.index_header{
+    position: relative;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.common_main{
+    overflow: hidden;
+    background: #5779B9;
+    background-image: url(/public/site/img/common/card_header_bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    border-radius: 20px 20px 0px 0px;
+}
+.common_bg{
+    background: #17469F;
+    border-radius: 16px 16px 0px 0px;
+    border: 1px solid #17469F;
+    padding: 15px;
+}
+.index_header .index_logo{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.index_header .index_menu {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: auto;
+}
+.index_header .index_menu img{
+    height: 45px;
+    width: 45px;
+}
+.index_header .index_menu .menu-title{
+    margin-top: 6px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+    text-align: center;
+}
+.index_banner{
+    height: 190px;
+    background-image: url("/public/site/img/index/banner_bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 15px 24px;
+    margin-top: 15px;
+}
+.index_banner .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+.index_banner .label{
+     font-family: Arial, Arial;
+     font-weight: 400;
+     font-size: 15px;
+     color: #80A8F4;
+     line-height: 17px;
+     margin-top: 17px;
+    margin-bottom: 6px;
+}
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_left{
+    display: flex;
+    justify-content: left;
+}
+.wallet_btn{
+    height: 20px;
+    width:45%;
+    background: rgba(255,253,253,0.9);
+    border-radius: 100px 100px 100px 100px;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #0751A0;
+    line-height: 16px;
+}
+.wallet_btn img{ display: inline-block;height: 20px;}
+.nav{
+    background-image: url("/public/site/img/common/nav.png");
+    background-size:  100% 106px;
+    background-repeat: no-repeat;
+    height: 106px;
+    padding-top: 10px;
+}
+.nav_active{
+    background-image: url("/public/site/img/common/active_nav.png");
+    background-size:  100% 106px;
+    background-repeat: no-repeat;
+    height: 106px;
+    padding-top: 10px;
+}
+.nav .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #689CFF;
+    line-height: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.nav_active .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #E4EDFF;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.reward_card{
+    height: 190px;
+    background-image: url("/public/site/img/index/reward_bg.png?t=222");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 15px 24px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.reward_card .invite_btn{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #396ED1;
+    border-radius: 100px 100px 100px 100px;
+    cursor: pointer;
+}
+.reward_card .copy_link_btn{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #396AC7;
+}
+.reward_card .qr_code_btn{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #23AF66;
+    border-bottom: 1px solid #80D8AA;
+}
+.reward_card .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    display: flex;
+    justify-content:space-between ;
+}
+.reward_card .content{
+    margin-top: 25px;
+    width: 100%;
+}
+.reward_card .content .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E4EDFF;
+    line-height: 16px;
+    text-align: left;
+}
+.reward_card .content .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #E4EDFF;
+    padding-left: 5px;
+}
+.position{
+    position: relative;
+}
+.unit{
+    position: absolute;top: -6px;
+    left: -5px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #B2C7EE;
+
+}
+.index_main {
+    position: relative;
+    margin:15px;
+    margin-bottom: 60px;
+}
+
+.index_main .product_title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #D4E2FF;
+    margin-bottom: 10px;
+}
+.index_main .product_type{
+    margin-bottom: 20px;
+}
+.index_main .product_type_item{
+    width: 30%;
+    background: #2452AC;
+    border-radius: 100px;
+    border: 1px solid #3565C2;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+}
+.index_main .product_type_item_active{
+    width: 30%;
+    background: #6298FF;
+    border-radius: 100px;
+    border: 1px solid #93B8FF;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+}
+.index_main .invite{
+    padding: 10px;
+}
+.index_main .invite .invite_banner{
+    position:relative;
+    top: -30px;
+    width: 100%;
+}
+.index_main .invite .invite_banner img{
+    width: 100%;
+
+}
+.index_main .prompt{
+    position:relative;
+    top: -20px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_main .commission{
+   margin-bottom: 20px;
+}
+.index_main .commission .flex{
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+}
+.index_main .commission .flex .left img{
+    height: 35px; width: 35px;
+}
+.index_main .commission .flex .right{
+    padding-left: 10px;
+}
+.index_main .commission .flex .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0E0E0E;
+    line-height: 21px;
+    text-align: left;
+}
+.index_main .commission .flex .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #818393;
+    line-height: 17px;
+    text-align: left;
+}
+.index_main .link_btn{
+    margin: 20px 0;
+}
+.index_main .link{
+    padding: 0 10px;
+}
+.index_main .link p{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B9BDD9;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.index_main .link .my_link{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+
+}
+.index_main .reward{
+    padding: 10px;
+}
+
+.index_main .reward .title{
+    border-left: 4px #EBD8A3 solid;
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2A415C;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_main .flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    border-radius: 15px 15px 15px 15px;
+}
+.index_main .balance{
+    padding: 20px;
+    background: #FFFFFf;
+}
+
+.index_main .reward .flex{
+    background: #FBFBFF;
+}
+.index_main .reward .flex .left{
+    background: #FBFBFF;
+}
+.index_main .reward .flex .left img{
+    width: 88px;
+    height: 88px;
+}
+.index_main .reward .flex .right{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.index_main .reward .flex .right .title{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+    line-height: 18px;
+}
+.copyright{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #406CC7;
+    line-height: 16px;
+    text-align: center;
+    margin: 15px 0;
+}
+.none_data{
+    text-align: center;margin: auto;padding: 30px 20px;padding-bottom: 60px;
+}
+.none_image{
+    width: 107px;height: auto;
+}
+.none_text{
+    margin-top:15px;font-family: Arial, Arial;font-weight: 700;font-size: 18px;color: #A6C3F9;line-height: 21px;text-align: center;
+}
+.card{
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+.product_header{
+    position: relative;
+    padding: 40px 20px 0 20px; ;
+    height: 135px;
+    background-image: url("/public/site/img/order/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 175px;
+}
+.product_header .header_content{
+    display: flex;
+    justify-content: space-between;
+}
+.product_header .header_content .service img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.product_header .index_logo{
+    width: 200px;
+    height: auto;
+}
+.product_header .index_logo img{
+    width: 100%;
+    height: auto;
+}
+.product_main{
+    position:relative;
+    top: -20px;
+    display: flex;
+    justify-content: left;
+}
+.product_main .left_content{
+    width: 120px;
+}
+.product_main .left_content .card{
+    width: 90px;
+    padding: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+    margin-bottom: 8px;
+    border-radius: 0px 10px 10px 0px;
+    background: #CFD0D9;
+}
+.product_main .left_content .card img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 7px;
+}
+.product_main .left_content .card_active{
+    background: linear-gradient( 135deg, #004B6E 0%, #0295C7 100%);
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+}
+.product_main .left_content .card_order{
+    display: block;
+    margin-top: 60px;
+    background: #383838;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+}
+
+.product_main .right_content {
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 60px;
+}
+
+.product_card{
+    height: 168px;
+    background-image: url("/public/site/img/index/product_bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.product_card .buy{
+   position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #6A99F3;
+    border-radius: 100px 100px 100px 100px;
+    width: 25%;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+.product_card .product_content{
+    padding: 10px;
+    text-align: center;
+}
+.product_card .product_content .product_title img{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px 12px 12px 12px;
+    border: 4px solid #5F89D9;
+    margin-right: 10px;
+}
+.product_card .product_content .product_title .product_name{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.product_card .product_content  .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-right: 20px;
+}
+.product_card .product_content  .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D6E4FF;
+    padding-left: 5px;
+    line-height: 20px;
+}
+.product_card .product_content  .price{
+    color: #FFE148;
+    font-size: 18px;
+    line-height: 20px;
+}
+.product_card .product_item{
+    text-align: center;
+}
+.product_card .product_item .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: center;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.product_card .product_item .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D6E4FF;
+    padding-left: 5px;
+    line-height: 20px;
+    margin-top: 8px;
+    padding-left: 0px;
+}
+
+.product_details_main{
+    margin: 15px
+}
+.product_details_card{
+    position: relative;
+    display: block;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #2B5CB9;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.product_details_card .lianjie{
+    width: 4px;height: 40px;
+}
+.product_details_card .lianjie_left{
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.product_details_card .lianjie_right{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}
+.common_card .lianjie{
+    width: 4px;height: 40px;
+}
+.common_card .lianjie_left{
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.common_card .lianjie_right{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}
+.product_details_card .product_details_item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.product_details_card .product_details_order{
+    border-bottom: 1px solid #4777D3;
+}
+.product_details_card .buy_btn{
+    background: #2257BB;
+    border-radius: 100px 100px 100px 100px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.layui-slider {
+    height: 5px;
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+.layui-slider-wrap-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#FFFFFF;
+    border: none;
+}
+.product_details_card .product_details_name{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #17469F;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.product_details_card .product_details_item .label{
+    ont-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+    margin-bottom: 6px;
+}
+.product_details_card .product_details_item .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #17469F;
+    line-height: 21px;
+    text-align: left;
+}
+.product_details_card .product_details_item .price {
+    font-family: Arial, Arial;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FF7D21;
+    line-height: 31px;
+}
+.product_details_card .product_details_item .unit {
+    position: relative;
+    top: -5px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #CFD0D9;
+    line-height: 16px;
+}
+.footer_menu{
+    position: fixed;
+    z-index:9999;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    background:none;
+    /*box-shadow: 0px 4px 10px 0px rgba(42,65,92,0.3);*/
+    /*border: 1px solid #ACC8FD;*/
+    border-radius: 120px 120px 0  0;
+    padding: 0;
+    margin: 0;
+}
+.footer_menu .border{
+    background-image:url(/public/site/img/common/up_bg.png) ;
+    background-size: 100% 20px;
+    background-repeat: no-repeat;
+}
+.footer_menu .content{
+    background: #2857AF;
+    display: flex;
+    width: 100%;
+    color: #A1BFF6;
+}
+.footer_menu .content a{
+    color: #A1BFF6 !important;
+    font-weight: 400;
+}
+.footer_menu .content .item{
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+}
+.footer_menu .content .item img{
+    width: 21px;
+    height: 21px;
+}
+.footer_menu .content .item p{
+    margin-top: 4px;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+}
+.footer_menu .content  .active{
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFF !important;
+}
+
+#service{
+    /*display: none;*/
+    position: fixed;
+    z-index:9999;
+    bottom: 200px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 50%;
+    background: none;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1);
+    border: 3px solid #93B8FF;
+    text-align: center;
+}
+
+
+.login_body{
+    height: 100%;
+    background-size :100%;
+    background: #17469F;
+}
+.login_body .login_bg{
+   padding-bottom: 400px;
+   background: #17469F;
+}
+.login_body .main{
+    /*background: #3364C1;*/
+}
+
+.login_body .logo {
+    margin: auto;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    background: #3364C1;
+
+}
+.login_body .logo img{
+    margin-top: 20px;
+     width: 250px;
+     height: 63px;
+}
+.login_body .logo .footer_order{
+    background: #3364C1;
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #ACC8FD;
+    border-radius: 160%;
+    filter: blur(1px);
+
+}
+.login_body .main .login_form{
+    background: #366CC1;
+    border-radius:30px;
+    margin: 15px;
+    margin-top: 60px;
+
+}
+.login_body .main .login_form .form_tab{
+   display: flex;
+   justify-content: space-between;
+   background: #366CC1;
+   border-radius: 30px 30px 0px 0px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #DDE9FF;
+    line-height: 60px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+
+.login_body .main .login_form .form_tab .left{
+    width: 50%;
+    height: 60px;
+    background: #FFFFFF;
+    color: #17469F;
+    border-radius: 30px 30px 0px 0px;
+}
+.login_body .main .login_form .form_tab .right{
+    width: 50%;
+    height: 60px;
+    background: #366CC1;
+    color: #DDE9FF!important;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.login_body .main .login_form .form_container{
+    background: #FFFFFf;
+    padding-top: 40px;
+    border-radius: 0px 30px 30px 30px;
+    padding: 20px;
+}
+.login_body .main .login_form .form_container .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #818393;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.login_body .main .login_form .form_container .layui-form-item{
+    border-radius: 8px;
+    border: 1px solid #CFD0D9;
+    margin-bottom: 20px;
+    height: 50px;
+
+}
+.login_body .main .login_form .form_container .layui-form-label{
+    width: 100px;
+    padding-top: 14px;
+    border: none;
+    background: none;
+    border-right: 1px solid #CFD0D9;
+    height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #17469F;
+
+}
+.login_body .main .login_form .form_container .layui-input-block{
+    margin-left: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+.login_body .main .login_form .form_container .layui-input-wrap{
+    border-radius:8px;
+}
+.login_body .main .login_form .form_container .layui-input-wrap .layui-input,.layui-input-affix {
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C !important;
+}
+.login_body .main .login_form .form_container .layui-input-wrap .layui-input,.layui-input-affix {
+
+
+    height: 50px !important;
+    line-height: 50px !important;
+}
+.login_btn{
+    margin-bottom: 20px;
+    background: #17469F;
+    border-radius: 100px 100px 100px 100px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-style: normal;
+    text-transform: none;
+}
+.border_noe{
+    border: none;
+}
+
+.user_header{
+    position: relative;
+    background: #2B5CB9;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3769C7;
+    height: 130px;
+    margin:26px 42px;
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    z-index: 9999999;
+}
+.user-header .user_info{
+    padding-top: 0px;
+    z-index: 9999999;
+}
+.user_info .balance{
+    text-align: center;
+    margin-top: 15px;
+    z-index: 9999999;
+}
+.user_info .balance .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #96BAF3;
+    line-height: 15px;
+}
+.user_info .balance .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFE11C;
+    margin-bottom: 10px;
+}
+.user_contents{
+    display: flex;
+    justify-content: space-between;
+    border: 1px #000000;
+    z-index: 9999999;
+}
+.user_contents .info {
+    display: flex;
+    justify-content: left;
+    color: #FFFFFF;
+}
+.user_contents .info img {
+    width: 50px;
+    height: 50px;
+}
+.user_contents .info a {
+    font-weight:700 ;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.user_contents .username {
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.user_main{
+    background-image: url("/public/site/img/user/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    position: relative;
+    top: -15px;
+    z-index: 111;
+}
+.user_main .index_menu {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: auto;
+}
+.user_main .index_menu img{
+    height: 40px;
+    width: 40px;
+}
+.user_main .index_menu .menu-title{
+    margin-top: 6px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+    text-align: center;
+}
+.user_main .nav{
+    background-image: url("/public/site/img/common/nav.png");
+    background-size:  100% 110px;
+    background-repeat: no-repeat;
+    height: 110px;
+    padding-top: 5px;
+}
+.user_main .nav_active{
+    background-image: url("/public/site/img/common/active_nav.png");
+    background-size:  100% 110px;
+    background-repeat: no-repeat;
+    height: 110px;
+    padding-top: 5px;
+}
+.user_main .nav .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #97BBFF;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.user_main .nav .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFE11C;
+    line-height: 16px;
+}
+
+
+.user_main .balance{
+    padding: 20px;
+}
+
+
+.user_main .balance .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 15px;
+
+}
+.user_main .balance .flex .item{
+    width: 50%;
+}
+.user_main .balance .flex .item .value{
+    color: #35506F;
+}
+
+.user_main .menu{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+.user_main .menu .menu_card{
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    height: 40px;
+}
+.user_main .menu .menu_card .item{
+   padding-left: 5px;
+}
+.user_main .menu .menu_card .item .value{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AF8923;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.user_main .menu .menu_card .item .label{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #004B6E;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+.user_main .menu .menu_card img{
+    width: 24px;
+    height: 24px;
+}
+
+.user_main .user_list {
+    margin-top: 15px;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3769C7;
+}
+.user_main .user_card{
+    margin: 0 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #3669C8;
+}
+.user_main .user_card .item{
+    display: flex;
+    justify-content: space-between;
+
+}
+.user_main .user_card .item .title{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #97BBFF;
+    line-height: 18px;
+}
+.user_main .user_card .item img{
+    width: 32px;
+    height: 32px;
+}
+.user_main .user_card .item .right_icon{
+    color: #CCCCCC;
+    line-height: 32px;
+    font-weight: bold;
+}
+.logout{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #97BBFF;
+    line-height: 21px;
+}
+.logout img{
+    height: 18px;
+    width: 18px;
+}
+.team_header{
+    background-image: url("/public/site/img/team/header_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 160px;
+}
+.team_header .back{
+    display: block;
+    width: 100%;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #D6E4FF;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 36px;
+}
+.team_header .back .btn{
+    width: 36px;
+    height: 36px;
+    background: #2250A8;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3060B9;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+
+.team_header .label{
+    margin-top: 20px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BAD5FF;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.team_header .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEDD4D;
+    line-height: 28px;
+    text-align: center;
+}
+.team_main {
+    padding: 0 15px;
+    margin-bottom: 200px;
+}
+.team_card{
+    margin-top: 25px;
+    background-image: url("/public/site/img/team/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 166px;
+    padding: 0 17px;
+    border-radius: 20px;
+}
+.team_card .title{
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 19px;
+    color: #BED4FF;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.team_card .left {
+    width: 100px !important;
+    height: 100px !important;
+    background: #3A6BC7;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #497CDE;
+    text-align: center;
+
+}
+.team_card .left .level_icon{
+    margin-top: 5px;
+    width: 44px;
+    height: 44px;
+}
+
+.team_card .left .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 11px;
+    color: #9EBDF9;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.team_card .left .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEDD4D;
+    line-height: 28px;
+    text-align: center;
+    width: 100px;
+}
+.team_card .right{
+    width: 100%;
+    padding-left: 10px;
+}
+.team_card .right .item{
+    width: 100%;
+   margin-bottom: 15px;
+}
+.team_card .right .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #9EBDF9;
+    line-height: 22px;
+}
+.team_card .right .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #EBF2FF;
+    line-height: 18px;
+    padding-left: 5px;
+}
+
+.common_card{
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3F70CD;
+    padding: 15px;
+}
+.common_card .common_card_content{
+    background: #F0F5FF;
+    border-radius: 16px 16px 16px 16px;
+    padding: 15px;
+}
+
+.common_explain{
+    border-left: 4px solid #EBD8A3;padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0751A0;
+    line-height: 21px;
+}
+.common_content{
+     margin-top: 15px;
+     font-family: Arial, Arial;
+     font-weight: 400;
+     font-size: 14px;
+     color: #2A415C;
+     line-height: 22px;
+}
+.common_content p{
+   margin-bottom: 15px;
+}
+
+.dialog{
+    background: rgba(255,255,255,0.2);
+    filter:alpha(opacity=.1);
+    border-radius: 16px;
+    border: 2px solid rgba(255,255,255,0.5);
+    z-index: 100;
+    top: 10px;
+}
+
+.dialog .dialog_contents{
+    padding: 15px;
+    background-color: #FFFFFf;
+    border-radius: 16px 16px 16px 16px;
+    z-index: 300;
+    margin: 15px;
+}
+.dialog .logo{
+
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+.dialog .logo img{
+    width: 60px; height: 60px;
+    border-radius: 50%;
+}
+.dialog .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0751A0;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.dialog .item{
+   display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+.dialog .item .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+}
+.dialog .item .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #17469F;
+    line-height: 21px;
+}
+.dialog .explain{
+    padding-left: 5px;
+    border-left: 3px solid #FC9137;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #17469F;
+    margin-bottom: 20px;
+}
+
+.dialog .text{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 22px;
+}
+
+.dialog .btn_group{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog .cancel{
+    border-radius: 100px 100px 100px 100px;
+    border: 1px solid #F0F5FF;
+    background: none;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F0F5FF;
+    width: 45%;
+}
+.dialog .confirm{
+    width: 45%;
+    border-radius: 100px 100px 100px 100px;
+    border: 1px solid #17469F;
+    background: #17469F;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F0F5FF;
+}
+
+.layui-layer-setwin {
+    position: absolute;
+    right: unset;
+    top: unset;
+    bottom: -50px;
+    left: 50%;
+}
+
+.layui-layer-page{ background: none !important;}
+
