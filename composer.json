@@ -11,7 +11,9 @@
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "mews/captcha": "^3.3",
-        "stichoza/google-translate-php": "^5.1"
+        "stichoza/google-translate-php": "^5.1",
+        "ext-gd": "*",
+        "ext-exif": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
